@@ -138,14 +138,26 @@ img {
         font-size: 3rem;
     }
 
+    .site-header{
+        margin-top: 0;
+    }
+
     h2{
         font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 2rem
+    }
+
+    .lessons p, .steps p, .why-us p{
+        font-size: 1.2rem;
     }
 
     .row{
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: center;
+        align-items: center;
     }
 
     .lessons .col, .steps .col, .why-us .col{
@@ -163,5 +175,11 @@ img {
 
     .lessons, .steps, .why-us{
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .container{
+        width: 100%;
     }
 }
